@@ -1,0 +1,92 @@
+main{
+    section{
+        .h1baste{
+            text-align: center;
+            
+            letter-spacing: 3px;
+        
+            font-size: 120%;
+            line-height: 100%;
+        
+        }
+        
+        .parrafosbaste{ font-size: 80%;
+            margin-left: 2px;
+            margin-right: 2px ;
+            padding: 0px;
+            text-align:center;
+           
+            
+        }
+        .h2baste{ font-size: 120%;
+            line-height: 100%;
+            text-align: center;
+            
+            letter-spacing: 3px; 
+        }
+        .section1baste{
+            background-color: #F9DC5C;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid black;
+            height: 250px;
+            
+        }
+        .section2baste{
+            background-color: #FAE588;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            border: 1px solid black;
+            height: 200px;
+    }
+ }
+ }
+
+ div{
+    .box_parrafobaste{ 
+        font-size: 10px;
+       line-height: 100%;
+         height: 80px;
+        
+        text-align: center ;
+        background-color:  rgb(255, 233, 66);
+        
+        width:100%;
+        
+        font-weight: bold;
+        
+    }
+ }
+
+ footer{
+    .div_1baste{
+        line-height: 20px;
+       border: 1px solid black;
+        font-size: 12px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+       background-color: #FAE588;
+        font-weight: bold;
+        
+       
+     
+    }
+    
+    .div_2baste { line-height: 15px;
+         font-size:12px;
+        border: 1px solid black;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    
+        background-color: rgb(255, 233, 66); ;
+        font-weight: bold;
+        
+    
+    }
+ }
