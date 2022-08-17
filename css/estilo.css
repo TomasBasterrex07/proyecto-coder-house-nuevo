@@ -1,0 +1,1038 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #F9DC5C;
+    
+}
+
+/**aca empieza el css de grid**/
+.grid_container{
+    height: 900px;
+    display: grid;
+    background-color: antiquewhite;
+    
+
+       
+        width: 100%;
+       
+        grid-template-columns: 100%   ;
+        grid-template-rows:  20% 60% ;
+        
+    
+}
+
+
+.grid_header{        
+    background-image: url(../images/imagenprincipalcel.jpeg);
+
+    
+}
+.grid_main{
+    background-color: antiquewhite;
+    
+}
+
+.grid_footer{
+    background-color: #F9DC5C;
+   
+}
+/**aca termina css grid**/
+/** aca esta el css de el header**/
+
+
+
+/**aca finaliza el css del menu**/
+/**aca va lo que contiene el main**/
+
+.h1baste{
+    text-align: center;
+    
+    letter-spacing: 3px;
+
+    font-size: 120%;
+    line-height: 100%;
+
+}
+
+.parrafosbaste{ font-size: 80%;
+    margin-left: 2px;
+    margin-right: 2px ;
+    padding: 0px;
+    text-align:center;
+   
+    
+}
+.h2baste{ font-size: 120%;
+    line-height: 100%;
+    text-align: center;
+    
+    letter-spacing: 3px; 
+}
+.section1baste{
+    background-color: #F9DC5C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    height: 250px;
+    
+}
+.section2baste{
+    background-color: #FAE588;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid black;
+    height: 200px;
+    
+    
+}
+.contenedorbaste{
+    display: flex;
+    flex-direction: row ;
+    
+    
+
+
+
+}
+.box_parrafobaste{ 
+    font-size: 10px;
+   line-height: 100%;
+     height: 80px;
+    
+    text-align: center ;
+    background-color:  rgb(255, 233, 66);
+    
+    width:100%;
+    
+    font-weight: bold;
+    
+}
+img{width: 119px ;
+    height: 80px;
+    
+    
+}
+/**finaliza el main**/
+/**empieza aqui el footer**/
+.fotowsp{ 
+    width:20px ;
+   height:20px ;
+   
+   
+}
+.div_1baste{
+    line-height: 20px;
+   border: 1px solid black;
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   background-color: #FAE588;
+    font-weight: bold;
+    
+   
+ 
+}
+
+.div_2baste { line-height: 15px;
+     font-size:12px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    background-color: rgb(255, 233, 66); ;
+    font-weight: bold;
+    
+
+}
+.fototext{
+    width:22px ;
+    height:22px ;
+    
+}
+/**aca termina el footer de la pag principal**/
+
+
+/**aqui  comienza el media querry de la pag principal para tablet**/
+@media screen and (min-width: 760px) and (max-width: 1068px) { 
+
+    .menu{
+        width:100%;
+       }
+       .menu li{
+        margin: 5px;
+        font-size: 17px;
+       }
+    
+    
+    
+    .menu li a{
+        padding: 5px;
+        }  
+    
+     .grid_container{
+            height: 100%;
+            width: 100%;
+           
+            grid-template-columns: 100%   ;
+            grid-template-rows: 35% ;
+            
+        }  
+        .grid_header{
+            background-image: url(../images/imagenprincipalcel.jpeg);
+        }
+    .h1baste{
+        font-size: 180%;
+        line-height: 100%;
+    }
+    .h2baste{
+        font-size: 180%;
+        line-height: 100%;
+    }
+    .parrafosbaste{
+        font-size: 120%;
+        margin-left: 8px;
+        margin-right: 8px ;
+        padding: 10px;
+    }
+    .box_parrafobaste{
+        
+        
+        font-size: 18px;
+        text-align: center;
+      
+        
+       
+        height: 180px;
+       
+        
+    }
+    img{
+        width: 210px ;
+        height: 180px;
+    }
+    
+    .fotowsp{
+        width:50px ;
+       height:50px ;
+       
+    }
+    .div_1baste{
+       
+        line-height: 30px;
+      
+        border: 1px solid black;
+        font-size: 20px;
+       
+     
+    }
+    
+    .div_2baste{
+        
+        line-height: 20px;
+         font-size:20px;
+        border: 1px solid black;
+        
+        
+    
+    }
+    .fototext{
+        width:55px ;
+        height:55px ; 
+}
+
+
+
+.nav2{
+    width: 100%;
+    
+    float: left;
+   
+    
+}
+
+
+
+
+
+
+
+
+}
+/**aqui finaliza el media querris de tablet de la pag prin**/
+
+
+/** aqui comienza la media querry para escritorio de la pagina principal**/
+@media screen and (min-width: 1068px) {
+  
+   .menu{
+    width:100%;
+   }
+   .menu li{
+    margin: 10px;
+   }
+
+
+
+.menu li a{
+    padding: 7px;
+    font-size: 25px;
+    }  
+
+ .grid_container{
+    grid-template-columns: 100% ;
+    grid-template-rows: 40% 60% 80%;
+        
+    }  
+    .grid_header{
+        background-image: url(../images/img\ prin2.jpg);
+        grid-column: 1/4;
+    }
+    .grid_main{
+        background-color: antiquewhite;
+        grid-column: 1/4;
+
+    }
+    
+    .grid_footer{
+        background-color: #F9DC5C;
+        grid-column: 1/4;
+        grid-row: 8/9;
+    }
+
+.h1baste{
+    line-height: 60px;
+    font-size: 220%;
+    
+}
+.h2baste{
+    line-height: 60px;
+    font-size: 220%;
+}
+.parrafosbaste{
+    font-size: 180%;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 30px;
+}
+
+.section1baste{
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    height: 450px;
+    
+}
+.section2baste{
+ 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    height: 450px;
+    
+    
+}
+.box_parrafobaste{
+    
+    line-height: 150%;
+    height: 250px;
+    font-size: 150%;
+   
+   
+    
+}
+img{
+    width: 70% ;
+    height: 40%;
+}
+
+.fotowsp{
+    width:40px ;
+   height:40px ;
+   
+}
+.div_1baste{
+   
+    line-height: 100%;
+    font-size: 120%;
+   
+ 
+}
+
+.div_2baste{
+    line-height: 100%;
+    border-left:1px solid black ;
+    border-right: 1px solid black;
+    font-size: 120%;
+    }
+.fototext{
+    width:40px ;
+    height:40px ;
+
+
+}
+}
+
+
+/**Comienza el css de la paguina "trabajos"**/
+.grid_container_trabajos{
+    height: auto;
+    display: grid;
+    grid-template-rows: 150px 100% auto ;
+    grid-template-columns:25% 75%;
+
+    
+    
+   
+}
+
+.grid_header1{
+   grid-column: 1/4;
+   background-image: url(../images/imgtrab_celu.jpeg);
+
+   
+}
+.grid_menus{
+ 
+ background-color: #F9DC5C;
+}
+.grid_main2{
+   
+    background-color: #FAE588;
+
+}
+.grid_footer2{
+    grid-column: 1/4;
+
+}
+/** aca termina el css de grid trabajos**/
+/** aca comienza el css de el menu independiente**/
+.nav2{
+    width: 100%;
+    
+    float: left;
+   
+    
+}
+.a2{
+    text-decoration: none;
+    list-style: none;
+    font-size: arial;
+    color: black;
+    margin: 0px;
+    
+    font-size: 10px;
+    
+    
+}
+.ul2{
+    
+    padding: 0px;
+    margin: 0px;
+}
+.li2{
+    
+    border: 1px solid black;
+    background-color: #FAE588;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 1s;
+    
+}
+/**aca finaliza el css del menu independiente**/
+/** aca comienza el css del main de trabajos**/
+.seccion_trabajos{
+    border: 2px solid black;
+    margin: 10px;
+    }
+.box_titulo_tp{
+    
+    margin: 19px;
+    border: 2px solid black;
+    background-color: #F9DC5C;
+    
+  
+}
+.box_articulo{
+    background-color: #F9DC5C;
+    border: 1px solid black;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+.texto_trab{
+   margin-top: 40px;
+    
+}
+.imgtrab1{
+    margin: 20px;
+    height: 70%;
+    width: 90% ;
+    
+}
+.imgtrab2{
+    margin: 20px;
+    height:120%;
+    width: 100%;
+}
+.imgtrab3{
+    margin: 20px;
+    width: 220px;
+    height: 220px;
+}
+
+
+/**aqui comienza el media querry de la seccion trabajos para tablet**/
+@media screen and (min-width: 760px) and (max-width: 1068px){
+    .grid_container_trabajos{
+        
+        grid-template-rows: 8%;
+    }
+    .grid_header1{
+        background-image: url(../images/imagenprintrab-tablet.jpeg);
+    }
+    .box_articulo{
+        flex-direction: row;
+    }
+    .a2{
+        
+        margin: 0px;
+        
+        font-size: 90%;
+        
+        
+    }
+    .ul2{
+        
+        padding: 1px;
+    }
+    .imgtrab1{
+        width: 250px;
+        height: 250px; 
+    }
+    .imgtrab2{
+        width: 320px;
+        height: 270px; 
+    }
+    .imgtrab3{
+        margin: 20px;
+        width: 320px;
+        height: 270px;
+    }
+    
+    
+
+}
+
+
+/**Aqui comienza el media querry par escritorio**/
+@media screen and (min-width: 1068px){
+    .grid_container_trabajos{
+        height: auto;
+        display: grid;
+        grid-template-rows: 450px 100% auto ;
+        grid-template-columns:20% 80%;
+    
+        
+        
+       
+    }
+    
+    .grid_header1{
+       grid-column: 1/4;
+       background-image: url(../images/celuimgprintrab.jpg);
+    
+       
+    }
+    .grid_menus{
+     
+     background-color: #F9DC5C;
+    }
+    .grid_main2{
+       
+        background-color: #FAE588;
+    
+    }
+    .grid_footer2{
+        grid-column: 1/4;
+    
+    }
+    /** aca termina el css de grid trabajos**/
+    /** aca comienza el css de el menu independiente**/
+    .nav2{
+        width: 100%;
+        
+        float: left;
+       
+        
+    }
+    .a2{
+       
+        margin: 8px;
+        
+        font-size: 20px;
+        
+        
+    }
+    .ul2{
+        
+        padding: 8px;
+    }
+    .li2{
+        margin: 20px;
+       
+        
+    }
+    /**aca finaliza el css del menu independiente en media querry**/
+    /** aca comienza el css del main de trabajos en media qerry**/
+    .seccion_trabajos{
+        
+        margin: 10px;
+        }
+    .box_titulo_tp{
+        
+        margin: 19px;
+       
+      
+    }
+    .box_articulo{
+        flex-direction: row;
+        margin: 15px;
+      
+        
+    }
+    .texto_trab{
+       margin-top: 40px;
+        
+    }
+    .imgtrab1{
+        margin: 20px;
+        height: 350px;
+        width: 350px ;
+    }
+    .imgtrab2{
+        margin: 20px;
+        height:400px;
+        width: 400px;
+    }
+    .imgtrab3{
+        margin: 20px;
+        width: 450px;
+        height: 400px;
+
+}
+}
+
+/**aca comienza el css de la pagina de trabajos**/
+/**aqui va el grid de la seccion de taller**/
+.grid_container_taller{
+    height: auto;
+    display: grid;
+    grid-template-rows: 10% 100%  ;
+    grid-template-columns:30% 70%;
+
+    
+    
+   
+}
+
+.grid_header2{
+   grid-column: 1/4;
+   background-image: url(../images/defimgprintaller.jpeg);
+
+   
+}
+.grid_marcas{
+ 
+ background-color: #F9DC5C;
+}
+.grid_main3{
+   
+    background-color: #FAE588;
+
+}
+/**aca termina grid de la pagina de taller**/
+/**aca comienza el css de la seccion de marcas**/
+.box_aside{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.img_spons{
+    width: 80% ;
+    height: 80% ;
+    transition: width 2s;
+}
+.divimg{
+    margin-top: 10% ;
+    margin-bottom: 10% ;
+    text-align: center; 
+}
+.enlases_marcas{
+    font-size: 85%;
+}
+/**aca comienza el css de main**/
+.div_titulo{
+    background-color: #F9DC5C;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    font-size: 100%;
+    animation-name: animaciontitulo;
+    animation-duration: 2s;
+     
+     position: relative;
+}
+
+.article1{
+    width:80%;
+    height:10%;
+    background-color: #F9DC5C;
+    margin: 10%;
+   flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+}
+.diviso{
+    background-color: #FAE588;
+    padding: 10px;
+    font-size: 100%;
+}
+.img_herramientas{
+    width:100%;
+    height:100%;
+}
+/**aqui comienza la adaptacion a tablet**/
+@media screen and (min-width: 760px) and (max-width: 1068px){
+
+ .enlases_marcas{
+    font-size: 150%;
+ }
+ .div_titulo{
+    font-size: 150% ;
+}
+.diviso{
+    font-size: 150%;
+}
+
+}
+
+/*aca comienza la adaptacion para escritorio*/
+@media screen and (min-width: 1068px){
+    .grid_container_taller{
+grid-template-rows: 450px;
+    }
+    .grid_header2{
+       background-image:url(../images/imgprintaller.jpeg);
+    }
+    .enlases_marcas{
+        font-size: 200%;
+    }
+    .div_titulo{
+        font-size: 150%;
+    }
+    .diviso{
+        font-size: 110%;
+    }
+    .box_section_h{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+   
+    .article1{
+        width: 350px;
+        height: 550px;
+        margin: 3%;
+        overflow: auto; 
+        
+    }
+    .img_herramientas{
+        width:80% ;
+        height:55%;
+    }
+
+
+}
+/*aqui termina y comienza el css para la pagina presupuestos*/
+.div_container_3{
+   
+    display: grid;
+    
+    grid-template-columns: 100% auto auto  ;
+    grid-template-rows: 200px ;
+        
+    
+}
+
+
+.grid_header3{        
+    background-image: url(../images/imgprinprescelu.jpg);
+
+}
+
+/*aqui comienza el css del main*/
+
+.box_form{
+    background-color:  rgba(16, 0, 0, 0.534);
+    width: 80%;
+    
+    
+    padding: 5px 30px;
+   
+
+    
+}
+.box_form label {
+    display: block;
+}
+.titulo_pre{
+    width: 85%;
+    background-color: #F9DC5C;
+    margin: 20px;
+    
+    margin-top:0px;
+    padding: 1px;
+    font-size: 80%;
+}
+.titulo_form{
+color: #F9DC5C;
+font-size: 25px;
+}
+
+.aside{
+    display: flex;
+    float : left;
+    background-color: #FCEFB4;
+}
+.aside_ejemplos{
+    text-align: center;
+    margin: 0px;
+    font-size: 9px;
+    background-color: #FAE588;
+}
+.imgeje{
+    width: 100px;
+    height: 60px;
+}
+
+/*aqui comienza la adaptacion a la tablet*/
+
+@media screen and (min-width: 760px) and (max-width: 1068px){
+    .div_container_3{
+   
+        
+        grid-template-rows: 350px ;
+        
+            
+        
+    }
+    .titulo_pre{
+        font-size: 60%;
+        width: 85%;
+        height: 30%;
+    }
+
+   .aside_ejemplos{
+    background-color: #F9DC5C;
+    margin-left: 2px ;
+    margin-right: 2px;
+    font-size:60%;
+    
+    text-align: center;
+   }
+   .aside{
+    margin-left: 1px;
+    margin-right: 1px;
+   }
+   }
+   /*aqui comienza la adaptacion a computadora */
+
+   @media screen and (min-width: 1068px){
+    .div_container_3{
+   
+        
+        grid-template-rows: 450px ;
+        
+            
+        
+    }
+    .titulo_pre{
+        font-size: 8px;
+        width: 95%;
+        padding: 10px;
+    }
+    .box_form{
+        width: 90%;
+        
+    }
+    .aside{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .aside_ejemplos{
+        background-color: #F9DC5C;
+        margin-left: 8px ;
+        margin-right: 8px;
+        text-align: center;
+    }
+   .imgeje{
+    width: 300px;
+    height: 250px;
+   }
+   }
+/**aqui comienza la parte css de contactanos**/
+
+.grid_container_contact{
+    display: grid;
+    grid-template-rows: 200px 80%;
+    
+}
+.grid_header_contc{
+    grid-column: 1/4;
+    background-image: url(../images/imgprincontaccelu.jpg);
+}
+.grid_main_contc{
+    grid-column: 1/4;
+    background-color: #F9DC5C;
+}
+/*aqui va el css de main*/
+.logo_ig_cont{
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    line-height: 100%; 
+    margin-top: 4px;
+    
+}
+.div_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   background-color: #F9DC5C;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom: 2%;
+    
+}
+
+.fotoinstagram{
+   text-align: center;
+   height:100%;
+   width: 90%;
+   
+}
+.section_contacts{
+    text-align: center;
+}
+
+.logo_whats_p{
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*mesia querry para tablet*/
+
+@media screen and (min-width: 760px) and (max-width: 1068px){
+    .grid_container_contact{
+        display: grid;
+        grid-template-rows: 350px 80%;
+        
+    } 
+    .div_redes{
+        font-size: 180%;
+    }
+    .logo_whats_p{
+        width: 10%;
+        height: 10%;
+        margin-top: 20px;
+    }
+    .logo_ig_cont{
+        width: 8%;
+        height: 8%;
+        
+    }
+}
+
+/*aqui comienza el media para escritorio*/
+@media screen and (min-width: 1068px){
+    .grid_container_contact{
+        display: grid;
+        grid-template-rows: 450px 80%;
+        
+    } 
+    .div_redes{
+        font-size: 150%;
+        text-align: center;
+        align-items: center;
+    }
+    .logo_whats_p{
+        width: 10%;
+        height: 10%;
+        margin-top: 20px;
+    }
+    .logo_ig_cont{
+        width: 8%;
+        height: 8%;
+        
+    }
+}
+
+/*aqui comienza el css de transciciones*/
+.img_spons:hover{
+    width:100% ;
+    height: 100%;
+}
+.menu li a:hover{
+    background-color: #fed20b;
+}
+
+.li2:hover{
+    background-color: #fdde56;
+}
+
+/*aqui comienza el css de las animaciones*/
+@keyframes animaciontitulo{
+  0%{
+     top: 0px;
+  }
+  50%{
+      top: 120px;
+  }
+  100%{
+    top: 0px;
+  }
+  
+}
+
+nav{
+    background-color: #F9DC5C;
+}
+
+   
+.imgbaste{
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+
