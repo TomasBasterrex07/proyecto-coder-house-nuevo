@@ -1,12 +1,13 @@
 main{
     section{
         .h1baste{
+           
             text-align: center;
             
-            letter-spacing: 3px;
+            letter-spacing: map-get($sizes ,spacingleter1 );
         
-            font-size: 120%;
-            line-height: 100%;
+            font-size: map-get($sizes , fuente1 );
+            line-height:map-get($sizes , fuentelh );
         
         }
         
@@ -18,21 +19,21 @@ main{
            
             
         }
-        .h2baste{ font-size: 120%;
+        .h2baste{ font-size: map-get($sizes , fuente1 );
             line-height: 100%;
             text-align: center;
             
             letter-spacing: 3px; 
         }
-        .section1baste{
-            background-color: #F9DC5C;
+        .section1baste{ @extend section;
+            background-color: map-get($colors, color1);
             padding-top: 10px;
             padding-bottom: 10px;
             border: 1px solid black;
             height: 250px;
             
         }
-        .section2baste{
+        .section2baste{@extend section;
             background-color: #FAE588;
             padding-top: 1px;
             padding-bottom: 1px;
@@ -59,14 +60,12 @@ main{
  }
 
  footer{
-    .div_1baste{
+    .div_1baste{ @extend footer;
         line-height: 20px;
        border: 1px solid black;
         font-size: 12px;
     
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+       @include felx-direccion;
         
        background-color: #FAE588;
         font-weight: bold;
@@ -75,7 +74,8 @@ main{
      
     }
     
-    .div_2baste { line-height: 15px;
+    .div_2baste { @extend footer;
+        line-height: 15px;
          font-size:12px;
         border: 1px solid black;
     

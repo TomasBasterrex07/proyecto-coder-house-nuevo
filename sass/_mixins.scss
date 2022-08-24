@@ -1,0 +1,7 @@
+
+/*este mixin corresponde al footer del index*/
+@mixin felx-direccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
