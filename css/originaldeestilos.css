@@ -827,7 +827,7 @@ font-size: 25px;
     height: 60px;
 }
 
-/*aqui comienza la adaptacion a la tablet*/
+/*aqui comienza la adaptacion a la tablet de presupuestos*/
 
 @media screen and (min-width: 760px) and (max-width: 1068px){
     .div_container_3{
@@ -948,7 +948,7 @@ font-size: 25px;
     justify-content: center;
     margin-top: 10px;
 }
-/*mesia querry para tablet*/
+/*comieza querry para tablet de la seccion contacto*/
 
 @media screen and (min-width: 760px) and (max-width: 1068px){
     .grid_container_contact{

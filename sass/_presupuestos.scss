@@ -1,0 +1,61 @@
+/*aqui termina y comienza el css para la pagina presupuestos*/
+.div_container_3{
+   
+    display: grid;
+    
+    grid-template-columns: 100% auto auto  ;
+    grid-template-rows: 200px ;
+        
+    
+}
+
+
+.grid_header3{        
+    background-image: url(../images/imgprinprescelu.jpg);
+
+}
+
+/*aqui comienza el css del main*/
+
+.box_form{
+    background-color:  rgba(16, 0, 0, 0.534);
+    width: 80%;
+    
+    
+    padding: 5px 30px;
+   
+
+    
+}
+.box_form label {
+    display: block;
+}
+.titulo_pre{
+    width: 85%;
+    background-color: #F9DC5C;
+    margin: 20px;
+    
+    margin-top:0px;
+    padding: 1px;
+    font-size: 80%;
+}
+.titulo_form{
+color: #F9DC5C;
+font-size: 25px;
+}
+
+.aside{
+    display: flex;
+    float : left;
+    background-color: #FCEFB4;
+}
+.aside_ejemplos{
+    text-align: center;
+    margin: 0px;
+    font-size: 9px;
+    background-color: #FAE588;
+}
+.imgeje{
+    width: 100px;
+    height: 60px;
+}

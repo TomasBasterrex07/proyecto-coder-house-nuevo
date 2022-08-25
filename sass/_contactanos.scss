@@ -1,0 +1,54 @@
+/**aqui comienza la parte css de contactanos**/
+
+.grid_container_contact{
+    display: grid;
+    grid-template-rows: 200px 80%;
+    
+}
+.grid_header_contc{
+    grid-column: 1/4;
+    background-image: url(../images/imgprincontaccelu.jpg);
+}
+.grid_main_contc{
+    grid-column: 1/4;
+    background-color: #F9DC5C;
+}
+/*aqui va el css de main*/
+.logo_ig_cont{
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    line-height: 100%; 
+    margin-top: 4px;
+    
+}
+.div_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   background-color: #F9DC5C;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom: 2%;
+    
+}
+
+.fotoinstagram{
+   text-align: center;
+   height:100%;
+   width: 90%;
+   
+}
+.section_contacts{
+    text-align: center;
+}
+
+.logo_whats_p{
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    margin-top: 10px;
+}
