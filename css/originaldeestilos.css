@@ -830,6 +830,10 @@ font-size: 25px;
 /*aqui comienza la adaptacion a la tablet de presupuestos*/
 
 @media screen and (min-width: 760px) and (max-width: 1068px){
+    .grid_header3{        
+        background-image: url(../images/imgprinpres.jpg);
+    
+    }
     .div_container_3{
    
         
@@ -838,6 +842,7 @@ font-size: 25px;
             
         
     }
+    
     .titulo_pre{
         font-size: 60%;
         width: 85%;
@@ -860,6 +865,12 @@ font-size: 25px;
    /*aqui comienza la adaptacion a computadora */
 
    @media screen and (min-width: 1068px){
+
+    .grid_header3{        
+        background-image: url(../images/imgprinpres.jpg);
+    
+    }
+
     .div_container_3{
    
         
@@ -903,7 +914,7 @@ font-size: 25px;
 }
 .grid_header_contc{
     grid-column: 1/4;
-    background-image: url(../images/imgprincontaccelu.jpg);
+    background-image: url(../images/imgprincontac.jpg);
 }
 .grid_main_contc{
     grid-column: 1/4;
@@ -1032,7 +1043,9 @@ nav{
     height: 70%;
 }
 
-
+.titulo_basterrex{
+    background-color: #FAE588;
+}
 
 
 
