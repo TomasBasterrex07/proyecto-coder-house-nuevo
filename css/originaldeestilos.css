@@ -900,9 +900,7 @@ grid-template-rows: 450px;
 
     
 }
-.box_form label {
-    display: block;
-}
+
 .titulo_pre{
     width: 85%;
     background-color: #F9DC5C;
@@ -1038,6 +1036,7 @@ font-size: 25px;
         margin-top: 45px;
             margin-right: 35px;
             margin-left: 35px;
+            margin-bottom: 40px;
     
 
 }
