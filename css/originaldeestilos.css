@@ -10,7 +10,7 @@ body{
 .grid_container{
     
     display: grid;
-    background-color: antiquewhite;
+    background-color: #fdde56;
     
 
        
@@ -45,6 +45,13 @@ body{
 /**aca finaliza el css del menu**/
 /**aca va lo que contiene el main**/
 
+.titprodes{
+    text-align: center;
+    background-color: #FCEFB4;
+    margin: 10%;
+    border: solid 1px black;
+}
+
 .h1inicio{
     text-align: center;
     font-size: 35px;
@@ -52,8 +59,8 @@ body{
     color: black;
     border: 5px solid #F9DC5C;
     margin-top: 5px;
-        margin-right: 35px;
-        margin-left: 35px;
+        margin-right: 50px;
+        margin-left: 50px;
 }
 
 .h1baste{
@@ -199,7 +206,7 @@ img{width: 119px ;
             width: 100%;
            
             grid-template-columns: 100%   ;
-            grid-template-rows: 35% ;
+            grid-template-rows: 320px;
             
         }  
         .grid_header{
@@ -316,26 +323,13 @@ img{width: 119px ;
     font-size: 25px;
     }  
 
- .grid_container{
-    grid-template-columns: 100% ;
-   
-        
-    }  
-    .grid_header{
-        background-image: url(../images/imagenprincipalcarpinteria.jpg);
-        grid-column: 1/4;
-    }
-    .grid_main{
-        background-color: antiquewhite;
-        grid-column: 1/4;
-
-    }
-    
-    .grid_footer{
-        background-color: #F9DC5C;
-        grid-column: 1/4;
-        grid-row: 8/9;
-    }
+ 
+   .grid_container{
+    grid-template-rows: 420px;
+   }
+   .grid_header{
+    background-image: url(../images/imagenprincipalcarpinteria.jpg);
+}
 
 
     .h1inicio{
@@ -717,8 +711,8 @@ img{
 .grid_container_taller{
     height: auto;
     display: grid;
-    grid-template-rows: 8% 100%  ;
-    grid-template-columns:30% 70%;
+    grid-template-rows: 190px 100%  ;
+    grid-template-columns:100%;
 
     
     
@@ -741,25 +735,8 @@ img{
 
 }
 /**aca termina grid de la pagina de taller**/
-/**aca comienza el css de la seccion de marcas**/
-.box_aside{
-display: flex;
-flex-direction: column;
-text-align: center;
-}
-.img_spons{
-    width: 80% ;
-    height: 80% ;
-    transition: width 2s;
-}
-.divimg{
-    margin-top: 10% ;
-    margin-bottom: 10% ;
-    text-align: center; 
-}
-.enlases_marcas{
-    font-size: 85%;
-}
+
+
 /**aca comienza el css de main**/
 .h1taller{
     text-align: center;
@@ -774,7 +751,7 @@ text-align: center;
 
 .div_titulo{
     background-color: #F9DC5C;
-    margin: 10%;
+    margin: 15%;
     padding: 5%;
     text-align: center;
     font-size: 100%;
@@ -783,20 +760,31 @@ text-align: center;
      
      position: relative;
 }
+.videotaller1{
+    width: 300px;
+    height: 500px;
+}
+.videotaller2{
+    width: 280px;
+    height: 200px;
+}
 
 .article1{
     width:80%;
     height:10%;
-    background-color: #F9DC5C;
-    margin: 10%;
+    background-color: #FAE588 ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
    flex-direction: column;
     text-align: center;
-    border: 1px solid black;
+   
 }
 .diviso{
-    background-color: #FAE588;
+    background-color:#F9DC5C;
     padding: 10px;
     font-size: 100%;
+     border: 1px solid black;
 }
 .img_herramientas{
     width:100%;
@@ -818,7 +806,10 @@ text-align: center;
             margin-right: 300px;
             margin-left: 300px;
     }
-
+    .videotaller2{
+        width: 720px;
+        height: 580px;
+    }
  .enlases_marcas{
     font-size: 150%;
  }
@@ -849,6 +840,10 @@ grid-template-rows: 450px;
             margin-right: 345px;
             margin-left: 345px;
     }
+    .videotaller2{
+        width: 720px;
+        height: 580px;
+    }
     .enlases_marcas{
         font-size: 200%;
     }
@@ -860,18 +855,14 @@ grid-template-rows: 450px;
     }
     .box_section_h{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        
+        
     }
     
     
    
-    .article1{
-        width: 350px;
-        height: 550px;
-        margin: 3%;
-        overflow: auto; 
-        
-    }
+   
     .img_herramientas{
         width:80% ;
         height:55%;
@@ -903,7 +894,8 @@ grid-template-rows: 450px;
     width: 80%;
     
     
-    padding: 5px 30px;
+    padding: 30px;
+    
    
 
     
@@ -1024,7 +1016,7 @@ font-size: 25px;
 
 .grid_container_contact{
     display: grid;
-    grid-template-rows: 200px 80%;
+    grid-template-rows: 200px ;
     
 }
 .grid_header_contc{
@@ -1054,7 +1046,7 @@ font-size: 25px;
     width: 25px;
     justify-content: center;
     line-height: 100%; 
-    margin-top: 4px;
+    margin-top: 1px;
     
 }
 .div_redes{
@@ -1064,7 +1056,7 @@ font-size: 25px;
     
    background-color: #F9DC5C;
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left:20%;
     margin-right:20%;
     margin-bottom: 2%;
@@ -1085,7 +1077,7 @@ font-size: 25px;
     height: 25px;
     width: 25px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 1px;
 }
 /*comieza querry para tablet de la seccion contacto*/
 
@@ -1131,7 +1123,7 @@ font-size: 25px;
 @media screen and (min-width: 1068px){
     .grid_container_contact{
         display: grid;
-        grid-template-rows: 450px 80%;
+        grid-template-rows: 450px ;
         
     } 
     .grid_header_contc{
@@ -1145,9 +1137,10 @@ font-size: 25px;
         align-items: center;
     }
     .logo_whats_p{
+        margin-bottom: 5px;
         width: 10%;
         height: 10%;
-        margin-top: 20px;
+        
     }
     .logo_ig_cont{
         width: 8%;
@@ -1203,12 +1196,14 @@ nav{
    
 .imgbaste{
     width: 100%;
-    height: 70%;
+    height: 50%;
+    
 }
 
 .titulo_basterrex{
     background-color: #FAE588;
 }
+
 
 
 
