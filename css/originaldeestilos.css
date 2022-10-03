@@ -516,7 +516,8 @@ img{
 .box_articulo{
     background-color: #F9DC5C;
     border: 1px solid black;
-    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -524,9 +525,13 @@ img{
     
 }
 .texto_trab{
-   margin-top: 40px;
+    margin-left: 0px;
     
+    padding: 2px;
+    margin: 5px;
 }
+
+
 .imgtrab1{
     margin: 20px;
     height: 70%;
@@ -535,8 +540,10 @@ img{
 }
 .imgtrab2{
     margin: 20px;
+    margin-bottom: 0px;
     height:120%;
     width: 100%;
+
 }
 .imgtrab3{
     margin: 20px;
@@ -611,12 +618,22 @@ img{
        
     }
     
+    
     .grid_header1{
        grid-column: 1/4;
        background-image: url(../images/imagenprincipalcarpinteria.jpg);
     
        
     }
+    .box_articulo{
+        background-color: #F9DC5C;
+        border: 1px solid black;
+        
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        align-items: center;
+    }    
     .h1trabajos{
         text-align: center;
         font-size: 50px;
@@ -627,6 +644,12 @@ img{
             margin-right: 360px;
             margin-left: 360px;
     }
+
+    .texto_trab{
+    margin-left: 300px;
+    border: solid 2px black;
+    padding: 5px;
+}
     .grid_menus{
      
      background-color: #F9DC5C;
@@ -684,10 +707,7 @@ img{
       
         
     }
-    .texto_trab{
-       margin-top: 40px;
-        
-    }
+    
     .imgtrab1{
         margin: 20px;
         height: 350px;
@@ -818,6 +838,8 @@ img{
 }
 .diviso{
     font-size: 150%;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 }
@@ -852,6 +874,8 @@ grid-template-rows: 450px;
     }
     .diviso{
         font-size: 110%;
+        margin-left: 400px;
+        margin-right: 400px;
     }
     .box_section_h{
         display: flex;
@@ -1203,6 +1227,14 @@ nav{
     background-color: #FAE588;
 }
 
+
+h3{
+   text-align: center;
+    padding-top: 20px;
+    
+  
+
+}
 
 
 
